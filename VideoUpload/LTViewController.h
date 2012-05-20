@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LTViewController : UIViewController
+@interface LTViewController : UIViewController<UINavigationControllerDelegate,UIImagePickerControllerDelegate>{
+    
+}
 
+
+- (IBAction)uploadVideo:(id)sender;
+- (IBAction)recordVideo:(id)sender;
 @end
