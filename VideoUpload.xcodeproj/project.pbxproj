@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E6E48431568BFD300973DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6E48421568BFD300973DAC /* UIKit.framework */; };
+		4E6E48451568BFD300973DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6E48441568BFD300973DAC /* Foundation.framework */; };
+		4E6E48471568BFD300973DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6E48461568BFD300973DAC /* CoreGraphics.framework */; };
+		4E6E484D1568BFD300973DAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E6E484B1568BFD300973DAC /* InfoPlist.strings */; };
+		4E6E484F1568BFD300973DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E484E1568BFD300973DAC /* main.m */; };
+		4E6E48531568BFD300973DAC /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E48521568BFD300973DAC /* LTAppDelegate.m */; };
+		4E6E48561568BFD300973DAC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6E48541568BFD300973DAC /* MainStoryboard.storyboard */; };
+		4E6E48591568BFD300973DAC /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E48581568BFD300973DAC /* LTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E6E483E1568BFD300973DAC /* VideoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6E48421568BFD300973DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E6E48441568BFD300973DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E6E48461568BFD300973DAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E6E484A1568BFD300973DAC /* VideoUpload-Info.plist */ = {isa = PBXFileReference; path = "VideoUpload-Info.plist"; sourceTree = "<group>"; };
+		4E6E484C1568BFD300973DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E6E484E1568BFD300973DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E6E48501568BFD300973DAC /* VideoUpload-Prefix.pch */ = {isa = PBXFileReference; path = "VideoUpload-Prefix.pch"; sourceTree = "<group>"; };
+		4E6E48511568BFD300973DAC /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		4E6E48521568BFD300973DAC /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		4E6E48551568BFD300973DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4E6E48571568BFD300973DAC /* LTViewController.h */ = {isa = PBXFileReference; path = LTViewController.h; sourceTree = "<group>"; };
+		4E6E48581568BFD300973DAC /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6E483B1568BFD300973DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6E48431568BFD300973DAC /* UIKit.framework in Frameworks */,
+				4E6E48451568BFD300973DAC /* Foundation.framework in Frameworks */,
+				4E6E48471568BFD300973DAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E6E48331568BFD200973DAC = {
+			isa = PBXGroup;
+			children = (
+				4E6E48481568BFD300973DAC /* VideoUpload */,
+				4E6E48411568BFD300973DAC /* Frameworks */,
+				4E6E483F1568BFD300973DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E6E483F1568BFD300973DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6E483E1568BFD300973DAC /* VideoUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E6E48411568BFD300973DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6E48421568BFD300973DAC /* UIKit.framework */,
+				4E6E48441568BFD300973DAC /* Foundation.framework */,
+				4E6E48461568BFD300973DAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E6E48481568BFD300973DAC /* VideoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				4E6E48511568BFD300973DAC /* LTAppDelegate.h */,
+				4E6E48521568BFD300973DAC /* LTAppDelegate.m */,
+				4E6E48541568BFD300973DAC /* MainStoryboard.storyboard */,
+				4E6E48571568BFD300973DAC /* LTViewController.h */,
+				4E6E48581568BFD300973DAC /* LTViewController.m */,
+				4E6E48491568BFD300973DAC /* Supporting Files */,
+			);
+			path = VideoUpload;
+			sourceTree = "<group>";
+		};
+		4E6E48491568BFD300973DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E6E484A1568BFD300973DAC /* VideoUpload-Info.plist */,
+				4E6E484B1568BFD300973DAC /* InfoPlist.strings */,
+				4E6E484E1568BFD300973DAC /* main.m */,
+				4E6E48501568BFD300973DAC /* VideoUpload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E6E483D1568BFD300973DAC /* VideoUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6E485C1568BFD300973DAC /* Build configuration list for PBXNativeTarget "VideoUpload" */;
+			buildPhases = (
+				4E6E483A1568BFD300973DAC /* Sources */,
+				4E6E483B1568BFD300973DAC /* Frameworks */,
+				4E6E483C1568BFD300973DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoUpload;
+			productName = VideoUpload;
+			productReference = 4E6E483E1568BFD300973DAC /* VideoUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E6E48351568BFD300973DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4E6E48381568BFD300973DAC /* Build configuration list for PBXProject "VideoUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E6E48331568BFD200973DAC;
+			productRefGroup = 4E6E483F1568BFD300973DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E6E483D1568BFD300973DAC /* VideoUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E6E483C1568BFD300973DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6E484D1568BFD300973DAC /* InfoPlist.strings in Resources */,
+				4E6E48561568BFD300973DAC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E6E483A1568BFD300973DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6E484F1568BFD300973DAC /* main.m in Sources */,
+				4E6E48531568BFD300973DAC /* LTAppDelegate.m in Sources */,
+				4E6E48591568BFD300973DAC /* LTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E6E484B1568BFD300973DAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6E484C1568BFD300973DAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E6E48541568BFD300973DAC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E6E48551568BFD300973DAC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E6E485A1568BFD300973DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4E6E485B1568BFD300973DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E6E485D1568BFD300973DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoUpload/VideoUpload-Prefix.pch";
+				INFOPLIST_FILE = "VideoUpload/VideoUpload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E6E485E1568BFD300973DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoUpload/VideoUpload-Prefix.pch";
+				INFOPLIST_FILE = "VideoUpload/VideoUpload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E6E48381568BFD300973DAC /* Build configuration list for PBXProject "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6E485A1568BFD300973DAC /* Debug */,
+				4E6E485B1568BFD300973DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6E485C1568BFD300973DAC /* Build configuration list for PBXNativeTarget "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6E485D1568BFD300973DAC /* Debug */,
+				4E6E485E1568BFD300973DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E6E48351568BFD300973DAC /* Project object */;
+}
